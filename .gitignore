@@ -1,0 +1,54 @@
+# Local configuration and secrets
+.env
+.env.*
+!.env.example
+**/.env
+**/.env.*
+!**/.env.example
+
+# Installed packages and generated frontend output
+**/node_modules/
+frontend/dist/
+
+# Local message, token, session, and OAuth credential files
+backend/data/messages.json
+backend/data/private/
+backend/data/messages*.json*
+backend/data/*.tmp
+backend/data/*token*.json
+backend/data/*Token*.json
+backend/data/*session*.json
+backend/data/*Session*.json
+backend/data/*.enc
+backend/data/*.encrypted
+backend/data/*.sqlite*
+backend/data/*.backup*
+backend/data/*.bak*
+**/*.backup
+**/*.backup.*
+**/*.bak
+**/*.bak.*
+**/credentials*.json
+**/*credentials*.json
+**/client_secret*.json
+**/oauth*.json
+**/*token*.json
+**/*Token*.json
+
+
+# macOS metadata
+.DS_Store
+**/.DS_Store
+
+# Never publish local Gmail tokens or private application data
+backend/data/private/
+backend/data/*token*
+backend/data/*Token*
+backend/data/*credential*
+backend/data/*Credential*
+backend/data/*secret*
+backend/data/*Secret*
+backend/data/*.enc
+backend/data/*.encrypted
+backend/data/*.encrypted.json
+backend/data/*.sqlite*

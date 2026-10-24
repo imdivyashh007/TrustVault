@@ -1,0 +1,19 @@
+{
+  "name": "trustvault-backend",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "node server.js",
+    "start": "node server.js",
+    "setup-auth": "node setupAuth.js",
+    "setup-message-key": "node setupMessageKey.js",
+    "migrate-message-store": "node migrateMessageStore.js",
+    "test": "node --test"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.21.2",
+    "googleapis": "^187.0.0"
+  }
+}

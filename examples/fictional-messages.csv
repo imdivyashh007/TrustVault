@@ -1,0 +1,3 @@
+sender,subject,body,timestamp,source
+Fictional Campus Cafe,Pickup reminder,"Your sample order is ready for pickup at the student center.",2026-10-20T10:00:00Z,Fictional email sample
+Fictional Library,,"Your reserved sample book is ready. Reply STOP to this fictional demo only.",2026-10-20T11:30:00Z,Fictional SMS sample
